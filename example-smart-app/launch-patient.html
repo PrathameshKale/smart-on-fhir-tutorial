@@ -26,11 +26,9 @@
     <script src='./lib/js/fhir-client-cerner-additions-1.0.0.js'></script>
     <script>
       FHIR.oauth2.authorize({
-        'client'{
         'client_id': 'd7bfb31e-71bc-4e04-a5f6-21f7dd3abeb8',
         'scope':  'user/Patient.read user/Observation.read launch/patient online_access openid profile fhiruser'
-      },'server':'https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d'
-       });
+      });
     </script>
     <div class="spinner">
       <div class="bounce1"></div>
